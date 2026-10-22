@@ -1,0 +1,12 @@
+{
+  "appId": "com.ridergo.partner",
+  "appName": "RiderGo",
+  "webDir": "www",
+  "backgroundColor": "#CF2C20",
+  "server": { "androidScheme": "https", "cleartext": true },
+  "plugins": {
+    "CapacitorHttp": { "enabled": true },
+    "SplashScreen": { "launchShowDuration": 0 }
+  },
+  "android": { "allowMixedContent": true }
+}

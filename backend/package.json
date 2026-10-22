@@ -1,0 +1,16 @@
+{
+  "name": "ridergo-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "REST API for the RiderGo delivery partner app",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/server.js",
+    "dev": "node --disable-warning=ExperimentalWarning --watch src/server.js",
+    "test": "node --disable-warning=ExperimentalWarning --test test/*.test.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
